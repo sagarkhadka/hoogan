@@ -1,0 +1,168 @@
+{
+  "side-bar": {
+    "help-contents": "CONTENU DE L’AIDE",
+    "about": "À PROPOS",
+    "how-to": "COMMENT FAIRE",
+    "initial-setup": "CONFIGURATION INITIALE",
+    "create-new-patient": "CRÉER UN NOUVEAU PATIENT",
+    "open-existing-patient": "OUVRIR UN PATIENT EXISTANT",
+    "home-screen": "MENU ÉCRAN D’ACCUEIL",
+    "patient": "MENU ÉCRAN D’ACCUEIL",
+    "new": "NOUVEAU",
+    "open": "OUVRIR",
+    "backup": "SAUVEGARDER",
+    "restore": "RESTAURER",
+    "modules": "MODULES",
+    "pre-test": "DONNÉES PRÉ-TEST",
+    "hand-test": "TEST DE LA MAIN",
+    "grip-strength": "FORCE DE PRÉHENSION",
+    "five-position": "TEST DES CINQ POSITIONS",
+    "rapid-exchange-grip": "PRÉHENSION À ÉCHANGE RAPIDE",
+    "fatigue-test": "TEST DE FATIGUE",
+    "key-pinch": "PINCE CLÉ",
+    "tip-pinch": "PINCE EN POINTE",
+    "palmar-pinch": "PINCE PALMAIRE",
+    "purdue-pegboard": "TABLE DE PERÇAGE PURDUE",
+    "inclinometry": "INCLINOMÉTRIE",
+    "muscle-test": "TEST MUSCULAIRE",
+    "reports": "RAPPORTS",
+    "utilities": "UTILITAIRES",
+    "help": "AIDE",
+    "troubleshooting-faq": "DÉPANNAGE / FAQ",
+    "trouble-shooting": "DÉPANNAGE",
+    "faq": "QUESTIONS FRÉQUEMMENT POSÉES (FAQ)"
+  },
+
+  "about": {
+    "title": "Aide À propos",
+    "description": "Cette aide décrit l’utilisation du logiciel MicroFET en combinaison avec les appareils MicroFET pour les tests."
+  },
+
+  "how-to": {
+    "initial-setup": {
+      "menu-title": "MENU – UTILITAIRES",
+      "title": "Paramètres",
+      "desc_1": "Paramètres : La fenêtre Paramètres contient les paramètres pour la configuration initiale du logiciel après l’installation, ou lorsque les réglages doivent être modifiés. Après avoir sélectionné les paramètres pour la configuration initiale ou la mise à jour, cliquez sur le bouton SAUVEGARDER pour enregistrer vos sélections.",
+      "desc_2": "Pour les ports disponibles, le logiciel détecte automatiquement le port COM du dongle USB connecté."
+    },
+
+    "create-new-patient": {
+      "title": "NOUVEAU/ANCIEN PATIENT",
+      "step-1": "Cliquez sur le bouton NOUVEAU dans l’écran d’accueil pour créer un nouveau patient. L’écran Modules affiche la fenêtre des données pré-test pour entrer les informations du nouveau patient. Pour un patient existant sélectionné, les informations de la fenêtre Pré-Test peuvent être mises à jour et sauvegardées pour une nouvelle session de test.",
+      "personal-tab-title": "Onglet Personnel",
+      "personal-tab-desc_1": "Nouveau Patient : Les informations du patient sont saisies et l’évaluateur est saisi/sélectionné. Les informations du patient sont saisies lors de la création d’un nouveau patient pour les tests. Complétez et enregistrez les onglets Lettre de couverture et Copier les rapports vers, puis cliquez sur OK pour sauvegarder les informations de l’onglet Personnel. Les informations de chaque onglet Données pré-test sont sauvegardées séparément.",
+      "personal-tab-desc_2": "Patient existant : Pour un nouveau test ou test ultérieur avec un patient existant, cliquez sur Modules dans le menu. Sélectionnez un patient soit en commençant à taper son nom dans la recherche pour afficher et sélectionner le patient, soit en cliquant sur la flèche déroulante pour voir la liste des patients et sélectionner un patient. Le patient existant sélectionné aura, dans la fenêtre Données Pré-Test, les informations du patient de la session de test précédente affichées, ainsi que la date actuelle. La fenêtre heure est vide et peut être renseignée. Si d’autres informations du patient ont changé ou doivent être mises à jour depuis la session précédente pour les onglets Lettre de couverture ou Copier les rapports vers, entrez et sauvegardez également ces informations mises à jour. Les informations mises à jour du patient existant sont sauvegardées et associées à la nouvelle session de test.",
+      "cover-letter-title": "Onglet Lettre de couverture",
+      "cover-letter-desc": "Les informations saisies dans cet onglet concernent le contact à qui envoyer les rapports. Saisissez les informations de contact et cliquez sur le bouton Sauvegarder. Les informations de contact de l’onglet Lettre de couverture sont maintenant enregistrées. Le bouton Rappel ouvre la liste des contacts enregistrés pour sélectionner un contact. Les informations de contact sélectionnées sont automatiquement remplies dans les champs de l’onglet. Cliquez sur Sauvegarder pour enregistrer le contact rappelé dans l’onglet Lettre de couverture.",
+      "copy-reports-title": "Onglet Copier les rapports vers",
+      "copy-reports-desc": "Les informations saisies dans cet onglet concernent le contact à qui envoyer les rapports. Saisissez les informations de contact et cliquez sur le bouton Sauvegarder. Les informations de contact de l’onglet Lettre de couverture sont maintenant enregistrées. Le bouton Rappel ouvre la liste des contacts enregistrés pour sélectionner un contact. Les informations de contact sélectionnées sont automatiquement remplies dans les champs de l’onglet. Cliquez sur Sauvegarder pour enregistrer le contact rappelé dans l’onglet Lettre de couverture."
+    },
+
+    "open-patient": {
+      "title": "NOUVEAU/ANCIEN PATIENT",
+      "desc": "Cliquez sur le bouton NOUVEAU dans l’écran d’accueil pour créer un nouveau patient. L’écran Modules affiche la fenêtre des données pré-test pour entrer les informations du nouveau patient. Pour un patient existant sélectionné, les informations de la fenêtre Pré-Test peuvent être mises à jour et sauvegardées pour une nouvelle session de test."
+    }
+  },
+
+  "home": {
+    "patient": {
+      "new": {
+        "title": "Ouvrir un patient existant",
+        "btn": "Cliquez sur le bouton NOUVEAU dans l’écran d’accueil pour créer un nouveau patient. L’écran Modules affiche la fenêtre des données pré-test pour entrer les informations du nouveau patient. Pour un patient existant sélectionné, les informations de la fenêtre Pré-Test peuvent être mises à jour et sauvegardées pour une nouvelle session de test.",
+        "personal-title": "Onglet Personnel",
+        "personal-desc-1": "<b>Nouveau Patient :</b> Les informations du patient sont saisies ainsi que l’évaluateur entré/sélectionné. Les informations du patient sont renseignées lors de la création d’un nouveau patient pour un test. Complétez et sauvegardez les onglets Lettre de couverture et Copier les rapports vers, puis cliquez sur OK pour enregistrer les informations de l’onglet Personnel. Chaque onglet Données pré-test est sauvegardé séparément.",
+        "personal-desc-2": "<b> Patient existant :</b> Pour un nouveau test ou test ultérieur avec un patient existant, cliquez sur Modules dans le menu. Sélectionnez un patient soit en commençant à taper son nom dans la recherche pour faire apparaître et sélectionner le patient, soit en cliquant sur la flèche déroulante pour afficher la liste des patients et en sélectionner un. Le patient existant sélectionné aura, dans la fenêtre Données pré-test, les informations de la session précédente affichées ainsi que la date actuelle. La fenêtre Heure est vide et peut être renseignée. Si d’autres informations du patient ont changé ou doivent être mises à jour depuis la session précédente dans les onglets Lettre de couverture ou Copier les rapports vers, saisissez et sauvegardez également ces informations mises à jour. Les informations mises à jour du patient existant sont enregistrées et associées à la nouvelle session de test.",
+        "cover-title": "<b>Onglet Lettre de couverture</b>",
+        "cover-desc": "Les informations saisies dans cet onglet concernent le contact à qui envoyer les rapports. Saisissez les informations de contact puis cliquez sur le bouton Sauvegarder. Les informations de contact pour l’onglet Lettre de couverture sont maintenant enregistrées. Le bouton Rappel ouvre la liste des contacts enregistrés pour sélection. Les informations de contact sélectionnées sont automatiquement remplies dans les champs de l’onglet. Cliquez sur Sauvegarder pour enregistrer le contact rappelé dans l’onglet Lettre de couverture.",
+        "copy-title": "<b>Onglet Copier les rapports vers</b>",
+        "copy-desc": "Les informations saisies dans cet onglet concernent le(s) contact(s) à qui copier les rapports. Saisissez les informations de contact puis cliquez sur Sauvegarder. Les informations de contact sont maintenant enregistrées pour l’onglet Copier les rapports vers. Le bouton Rappel ouvre la liste des contacts enregistrés pour sélection. Les informations sélectionnées sont automatiquement remplies dans les champs de l’onglet. Cliquez sur Sauvegarder pour enregistrer le contact rappelé dans l’onglet Copier les rapports vers."
+      },
+      "backup": {
+        "title": "<b>Sauvegarde  </b>",
+        "btn": "Cliquez sur le bouton SAUVEGARDER dans l’écran d’accueil pour sauvegarder les fichiers patients.",
+        "desc": "Le bouton SAUVEGARDER peut être utilisé lorsque vous souhaitez sauvegarder des patients en dehors du calendrier de sauvegarde défini dans les Utilitaires. Lorsque vous cliquez sur le bouton SAUVEGARDER, la fenêtre Parcourir un dossier s’affiche. Localisez et pointez sur le dossier de sauvegarde, créé dans les Paramètres, puis cliquez sur OK. Un dossier de sauvegarde contenant les fichiers patients sera créé. Le fichier est nommé selon la date de la sauvegarde."
+      },
+
+      "restore": {
+        "title": "<b>Restaurer  </b>",
+        "btn": "Cliquez sur le bouton RESTAURER dans l’écran d’accueil pour restaurer les fichiers patients.",
+        "desc": "Le bouton Restaurer ouvre les fichiers de sauvegarde des patients, référencés par date de sauvegarde. Sélectionnez la date du fichier de sauvegarde et cliquez sur Ouvrir. Les informations patient seront restaurées pour cette date."
+      }
+    },
+    "modules": {
+      "pre-test": {
+        "title": "Données pré-test",
+        "desc_1": "La fenêtre DONNÉES PRÉ-TEST s’affiche lorsque vous cliquez sur le bouton Nouveau dans l’écran principal pour créer un nouveau patient et commencer une nouvelle session de test. La fenêtre Données pré-test s’affiche également par défaut lorsque vous sélectionnez Modules dans le menu. Un patient existant peut être sélectionné pour mettre à jour et sauvegarder les informations pour une nouvelle session de test. De nouveaux patients peuvent aussi être créés dans Modules.",
+        "desc_2": "Pour sélectionner un patient existant, commencez soit à taper le nom pour faire apparaître le patient, soit cliquez dans la zone Sélectionner un patient, ou sur la flèche déroulante, pour afficher la liste des patients existants à sélectionner. Une fois le patient sélectionné, les informations du patient existant s’affichent dans l’onglet Personnel. Si des informations ont changé depuis la visite précédente dans les onglets Personnel, Lettre de couverture ou Copier les rapports vers, mettez-les à jour et sauvegardez. Les informations patient mises à jour seront associées à la date du test sauvegardée."
+      },
+
+      "inclinometry": {
+        "title": "Inclinométrie",
+        "desc": "Cliquez sur le bouton INCLINOMÉTRIE pour ouvrir le module de test d’inclinométrie."
+      },
+
+      "muscle-test": {
+        "title": "Test musculaire",
+        "desc_1": "Avant de sélectionner Test musculaire dans Modules pour une nouvelle session de test, créez soit un nouveau patient et sauvegardez les informations, soit ouvrez un patient existant, mettez à jour et sauvegardez les informations. Après avoir sauvegardé les informations du patient (nouveau ou existant), cliquez de nouveau sur Modules dans le menu, puis sélectionnez le patient nouvellement créé ou le patient existant mis à jour dans la liste des patients pour la nouvelle session de test. Ensuite, cliquez sur Test musculaire.",
+        "desc_2": "Après avoir cliqué sur le bouton Test musculaire, vérifiez la connexion de l’appareil dans la fenêtre Connexion de l’appareil en cliquant sur l’image de l’appareil affichée. Après confirmation de la connexion, cliquez sur le bouton Suivant. La fenêtre Commandes Test musculaire s’affiche.",
+        "commands": "Commandes",
+        "command-1": "<b>Test :</b> Utilisez ce bouton pour créer de nouveaux tests musculaires ou consulter les tests musculaires déjà réalisés. Ce bouton ouvre la fenêtre de sélection des muscles.",
+        "command-2": "<b> Protocoles : </b>Utilisez ce bouton pour créer un nouveau protocole, ou pour modifier ou tester des protocoles créés précédemment. Ce bouton ouvre la fenêtre de sélection des protocoles.",
+        "command-3": "<b>Recommandations :</b> Utilisez ce bouton pour sélectionner une recommandation pour le patient. Ce bouton ouvre la fenêtre des recommandations.",
+        "command-4": "<b>Repasser le test :</b> Utilisez ce bouton pour les patients qui reviennent pour un test complémentaire. Par exemple, M. Jones a fait tester six muscles le 15 janvier. Le 22 janvier, il revient pour faire tester les mêmes six muscles. Au lieu de sélectionner les muscles à nouveau, choisissez ce bouton et vous serez directement conduit à l’écran de test avec les six muscles déjà sélectionnés.",
+        "command-5": "<b> Quitter :</b> Utilisez ce bouton pour fermer l’application Test musculaire.",
+        "command-6": "<b>Aide :</b> Ce bouton ouvre l’écran principal d’aide."
+      }
+    },
+
+    "reports": {
+      "title": "Rapports",
+      "letter-title": "Onglet Lettre/Narration",
+      "generate-graphical-report-btn": "<b>Générer un rapport graphique :</b>Ce bouton permet de générer tous les rapports graphiques ensemble, sauf le rapport de comparaison, pour la session du module de test terminée. Les pages du rapport seront créées et l’écran s’ouvrira pour prévisualiser/voir les rapports. Depuis l’écran d’aperçu avant impression, toutes les pages du rapport peuvent être imprimées sur l’imprimante ou sauvegardées en utilisant une application PDF installée pour générer un fichier PDF.",
+      "generate-report-btn": "<b>Bouton Générer le rapport :</b>Ce bouton sert à générer les pages de la lettre de couverture ou du rapport narratif lorsque l’un ou les deux sont sélectionnés. Les pages s’ouvriront dans un éditeur de texte pour être relues et modifiées. L’utilisateur détermine comment nommer et sauvegarder les rapports.",
+      "print-preview-btn": "<b>Bouton Aperçu avant impression :</b>Ce bouton est utilisé lorsque le rapport de comparaison est sélectionné. Le rapport généré s’ouvre pour prévisualiser/voir le rapport. Depuis l’aperçu avant impression, le rapport de comparaison peut être consulté, imprimé ou sauvegardé en utilisant une application PDF installée pour générer un fichier PDF.",
+      "print-btn": "<b>Bouton Imprimer :</b>Le bouton Imprimer lance directement l’impression sans aperçu avant impression, avec la possibilité de choisir entre imprimer sur l’imprimante ou sauvegarder en utilisant une application PDF installée pour générer un fichier PDF, lorsqu’on sélectionne la lettre de couverture, la lettre narrative ou le(s) rapport(s) de comparaison dans l’onglet.",
+      "close-btn": "<b>Bouton Fermer :</b>Ferme la fenêtre des rapports.",
+      "save-default-btn": "<b>Boutons Sauvegarder les paramètres par défaut et Restaurer les paramètres par défaut :</b>Le bouton Sauvegarder les paramètres par défaut est une fonction permettant de gagner du temps si vous imprimez souvent les mêmes rapports pour tous vos patients. Sélectionnez les rapports que vous souhaitez imprimer, puis cliquez sur Sauvegarder les paramètres par défaut. Ensuite, chaque fois que vous souhaitez imprimer ces rapports pour un patient, il suffit de cliquer sur le bouton Restaurer les paramètres par défaut.",
+      "help-btn": "<b>Bouton Aide :</b>Le bouton Aide fournit des informations d’aide sur la fenêtre des rapports.",
+      "module-tab-title": "Onglets Modules",
+      "module-tab-desc": "Depuis les onglets des tests Modules, vous pouvez sélectionner et prévisualiser les options de rapports graphiques. Les rapports sélectionnés et générés peuvent être imprimés ou sauvegardés au format PDF à l’aide d’une application PDF installée."
+    },
+
+    "utility": {
+      "utility-title": "Utilitaires",
+      "setting": "Paramètres",
+      "setting-desc": "La fenêtre Paramètres contient les paramètres pour la configuration initiale du logiciel après installation, ou lorsque les réglages doivent être modifiés. Après avoir sélectionné ou mis à jour les paramètres, cliquez sur le bouton SAUVEGARDER pour enregistrer vos sélections.",
+      "setting-desc-2": "Pour la sélection de l’appareil et les ports disponibles, le logiciel détecte automatiquement l’appareil sélectionné et le port COM du dongle USB connecté."
+    },
+
+    "help": {
+      "title": "Aide",
+      "desc": "Le menu Aide propose les options suivantes pour vous assister avec cette application ",
+      "topic": "<b>Sujets d’aide : </b>Offre un index des sujets d’aide sur lesquels vous pouvez obtenir des informations.",
+      "about": "<b>À propos : </b>Affiche le numéro de version de cette application."
+    }
+  },
+
+  "faq": {
+    "trouble-shooting": {
+      "title": "<b>Dépannage</b>",
+      "desc": "Pas de communication entre le logiciel et l’appareil :",
+      "step-1": "Ouvrez le Gestionnaire de périphériques sur l’ordinateur en cliquant droit sur le bouton Démarrer dans la barre des tâches, puis sélectionnez Gestionnaire de périphériques. Dans le Gestionnaire de périphériques, si le périphérique port série USB dans la section ports n’est pas affiché, vérifiez dans la section autres périphériques la présence d’un FTDI USB UART. S’il se trouve dans cette section, le pilote n’est pas installé. Pour mettre à jour le pilote, cliquez droit sur le FT232R USB UART, puis sélectionnez Mettre à jour le pilote. Ensuite, choisissez Parcourir mon ordinateur et pointez vers le dossier du pilote USB téléchargé fourni par Hoggan Scientific avec votre achat logiciel. Sélectionnez le dossier puis cliquez sur OK. Le pilote devrait s’installer. Cette opération doit être faite deux fois, une fois pour le pilote USB et une fois pour le pilote du port COM. Vous pouvez également vous rendre sur le site de FTDI Chip à l’adresse https://ftdichip.com/ pour télécharger et installer le pilote USB.",
+      "step-2": "",
+      "step-3": "",
+      "step-4": "",
+      "step-5": "",
+      "step-6": ""
+    },
+
+    "faq": {
+      "title": "",
+      "question-1": "",
+      "answer-1": "",
+      "question-2": "",
+      "min-req": "",
+      "answer-2": ""
+    }
+  }
+}
