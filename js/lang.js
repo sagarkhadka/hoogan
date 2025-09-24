@@ -1,6 +1,7 @@
 import en from '../lang/en.json'
 import es from '../lang/es.json'
 import jp from '../lang/jp.json'
+import de from '../lang/de.json'
 
 // async function loadLanguageFile(lang) {
 // 	const res = await fetch(`../lang/${lang}.json`)
@@ -27,6 +28,7 @@ window.addEventListener('DOMContentLoaded', async () => {
 		'en-US': { translation: en },
 		'es-ES': { translation: es },
 		'jp-JP': { translation: jp },
+		'de-DE': { translation: de },
 	}
 
 	if (lang && lang !== 'en') {
