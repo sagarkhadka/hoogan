@@ -3,11 +3,11 @@ import { defineConfig } from 'vite'
 export default defineConfig({
 	build: {
 		lib: {
-			entry: 'lang.js',
+			entry: './js/lang.js',
 			formats: ['iife'],
 			name: 'LangBundle',
 		},
-		outDir: './',
+		outDir: './dist',
 		rollupOptions: {
 			output: {
 				entryFileNames: 'lang.bundle.js',
