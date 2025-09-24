@@ -1,0 +1,13 @@
+{
+	"about": {
+		"title": "Help About",
+		"description": "This Help describes the use of the MicroFET software in combination with Microfet devices for testing."
+	},
+	"how-to": {
+		"initial-setup": {
+			"title": "Settings",
+			"desc_1": "Settings: Settings window has parameters for initial set up of software after installation, or when parameter settings need to be changed. After selection of parameters for initial set up or updating have been made, click SAVE button to save your setting selections.",
+			"desc_2": "For Available Ports, the software auto detects com port USB dongle connected to."
+		}
+	}
+}

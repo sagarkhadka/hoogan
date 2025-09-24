@@ -1,0 +1,212 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>DASHMIN - Bootstrap Admin Template</title>
+		<meta
+			content="width=device-width, initial-scale=1.0"
+			name="viewport" />
+		<meta
+			content=""
+			name="keywords" />
+		<meta
+			content=""
+			name="description" />
+
+		<!-- Favicon -->
+		<link
+			href="../img/favicon.ico"
+			rel="icon" />
+
+		<!-- Google Web Fonts -->
+		<link
+			rel="preconnect"
+			href="https://fonts.googleapis.com" />
+		<link
+			rel="preconnect"
+			href="https://fonts.gstatic.com"
+			crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700&display=swap"
+			rel="stylesheet" />
+
+		<!-- Icon Font Stylesheet -->
+		<link
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+			rel="stylesheet" />
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+			rel="stylesheet" />
+
+		<!-- Libraries Stylesheet -->
+		<link
+			href="../lib/owlcarousel/assets/owl.carousel.min.css"
+			rel="stylesheet" />
+		<link
+			href="../lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css"
+			rel="stylesheet" />
+
+		<!-- Customized Bootstrap Stylesheet -->
+		<link
+			href="../css/bootstrap.min.css"
+			rel="stylesheet" />
+
+		<!-- Template Stylesheet -->
+		<link
+			href="../css/style.css"
+			rel="stylesheet" />
+		<link
+			href="../menujr.css"
+			rel="stylesheet" />
+	</head>
+
+	<body>
+		<div
+			id="languageCode"
+			style="display: none">
+			$languageCode
+		</div>
+		<div class="container-xxl position-relative bg-white page-wrapper p-0">
+			<!-- Spinner Start -->
+			<div
+				id="spinner"
+				class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+				<div
+					class="spinner-border text-primary"
+					style="width: 3rem; height: 3rem"
+					role="status">
+					<span class="sr-only">Loading...</span>
+				</div>
+			</div>
+			<!-- Spinner End -->
+			<!-- Sidebar Start -->
+			<div class="sidebar pb-3">
+				<nav class="navbar bg-light navbar-light">
+					<a
+						href="./index.html"
+						class="navbar-brand mx-4 mb-3">
+						<h3 class="text-primary">Help Contents</h3>
+					</a>
+					<div class="navbar-nav w-100">
+						<div class="menujq">
+							<ul>
+								<li><a href="./about.html">About</a></li>
+								<li>
+									<a href="javascript:void();">How To</a>
+									<ul>
+										<li><a href="./initialSetup.html">Initial Setup</a></li>
+										<li><a href="./createNewPatient.html">Create New Patient</a></li>
+										<li><a href="./openExistingPatient.html">Open Existing Patient</a></li>
+									</ul>
+								</li>
+								<li>
+									<a href="javascript:void();">Home Screen Menu</a>
+									<ul>
+										<li>
+											<a href="javascript:void();">Patient</a>
+											<ul>
+												<li><a href="./patient.html">New</a></li>
+												<li><a href="./openExistingPatient.html">Open</a></li>
+												<li><a href="./backup.html">Backup</a></li>
+												<li><a href="./restore.html">Restore</a></li>
+											</ul>
+										</li>
+										<li>
+											<a href="javascript:void();">Modules</a>
+											<ul>
+												<li><a href="./pretestdata.html">Pre Test Data</a></li>
+												<li>
+													<a href="javascript:void();">Hand Test</a>
+													<ul>
+														<li><a href="./gripstrength.html">Grip Strength</a></li>
+														<li><a href="./fivepositiontest.html">Five Position Test</a></li>
+														<li><a href="./rapidexchange.html">Rapid Exchange Grip</a></li>
+														<li><a href="./fatiguetest.html">Fatigue Test</a></li>
+														<li><a href="./keypinch.html">Key Pinch</a></li>
+														<li><a href="./tippinch.html">Tip Pinch</a></li>
+														<li><a href="./palmarpinch.html">Palmar Pinch</a></li>
+														<li><a href="./purduepegboard.html">Purdue Pegboard</a></li>
+													</ul>
+												</li>
+												<li><a href="./inclinometry.html">Inclinometry</a></li>
+												<li><a href="./MuscleTest.html">Muscle Test</a></li>
+											</ul>
+										</li>
+										<li><a href="./reports.html">Reports</a></li>
+										<li><a href="./utilities.html">Utilities</a></li>
+										<li><a href="./help.html">Help</a></li>
+									</ul>
+								</li>
+
+								<li>
+									<a href="javascript:void();">Trouble Shooting / FAQ's</a>
+									<ul>
+										<li><a href="./TroubleShooting.html">Trouble Shooting</a></li>
+										<li><a href="Faq.html">Frequently Asked Questions (FAQ's)</a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</div>
+			<!-- Sidebar End -->
+			<!-- Content Start -->
+			<div class="content">
+				<!-- Navbar Start -->
+				<nav class="navbar navbar-expand bg-light navbar-light sticky-top px-4 py-0">
+					<a
+						href="index.html"
+						class="navbar-brand d-flex d-lg-none me-4">
+						<h2 class="text-primary mb-0"><i class="fa fa-hashtag"></i></h2>
+					</a>
+					<a
+						href="#"
+						class="sidebar-toggler flex-shrink-0">
+						<i class="fa fa-bars"></i>
+					</a>
+				</nav>
+				<!-- Navbar End -->
+				<!-- Help Unlock Content-->
+				<div class="container-fluid pt-4 px-4">
+					<h4>New/Edit Muscle</h4>
+					<br />
+					<img
+						src="../img/edit-new-muscle-dialog.png"
+						style="height: 25%; width: 28%; object-fit: contain" />
+					<br />
+					<br />
+					<p><strong>New/Edit Muscle</strong></p>
+					<p>Use this window to create and edit custom muscles.</p>
+					<br />
+					<p><strong>Buttons</strong></p>
+					<p>Ok: Saves custom muscle.</p>
+					<p>Cancel: Exits dialog without saving changes.</p>
+				</div>
+				<!-- Help Unlock End -->
+			</div>
+			<!-- Content End -->
+			<!-- Back to Top -->
+			<a
+				href="#"
+				class="btn btn-lg btn-primary btn-lg-square back-to-top">
+				<i class="bi bi-arrow-up"></i>
+			</a>
+		</div>
+
+		<!-- JavaScript Libraries -->
+		<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+		<script src="../lib/chart/chart.min.js"></script>
+		<script src="../lib/easing/easing.min.js"></script>
+		<script src="../lib/waypoints/waypoints.min.js"></script>
+		<script src="../lib/owlcarousel/owl.carousel.min.js"></script>
+		<script src="../lib/tempusdominus/js/moment.min.js"></script>
+		<script src="../lib/tempusdominus/js/moment-timezone.min.js"></script>
+		<script src="../lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+		<!-- Template Javascript -->
+		<script src="../js/main.js"></script>
+		<script src="../menujr.js"></script>
+	</body>
+</html>

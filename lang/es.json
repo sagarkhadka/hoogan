@@ -1,0 +1,157 @@
+{
+	"side-bar": {
+		"help": "CONTENIDO DE AYUDA",
+		"about": "ACERCA DE",
+		"how-to": "CÓMO HACER",
+		"initial-setup": "Configuración Inicial",
+		"create-new-patient": "Crear Paciente Nuevo",
+		"open-existing-patient": "Abrir Paciente Existente",
+		"home-screen": "MENÚ PANTALLA PRINCIPAL",
+		"patient": "Paciente",
+		"new": "Nuevo",
+		"open": "Abrir",
+		"backup": "Respaldar",
+		"restore": "Restaurar",
+		"modules": "Módulos",
+		"pre-test": "Datos Previos a la Prueba",
+		"hand-test": "Prueba de Mano",
+		"grip-strength": "Fuerza de Agarre",
+		"key-positions": "Prueba de Cinco Posiciones,",
+		"Inclinometry": "Inclinometría"
+	},
+
+	"about": {
+		"title": "Ayuda Acerca de",
+		"description": "Esta Ayuda describe el uso del software MicroFET en combinación con los dispositivos MicroFET para pruebas."
+	},
+
+	"how-to": {
+		"initial-setup": {
+			"menu-title": "<b>MENÚ – UTILIDADES<b>",
+			"title": "Configuraciones",
+			"desc_1": "<b>Configuraciones:</b> La ventana de configuraciones contiene parámetros para la configuración inicial del software después de la instalación, o cuando se necesitan cambiar los ajustes. Después de seleccionar los parámetros para la configuración inicial o actualización, haga clic en el botón GUARDAR para guardar sus selecciones.",
+			"desc_2": "Para Puertos Disponibles, el software detecta automáticamente el puerto COM al que está conectado el dongle USB."
+		},
+
+		"create-new-patient": {
+			"title": "PACIENTE NUEVO/EXISTENTE",
+			"step-1": "Haga clic en el botón NUEVO en la pantalla principal para crear un nuevo paciente. La pantalla de Módulos muestra la ventana de Datos Previos a la Prueba para ingresar información del nuevo paciente. Para un paciente existente seleccionado, la información de Datos Previos a la Prueba puede actualizarse y guardarse para una nueva sesión de prueba.",
+			"personal-tab-title": "<b>Pestaña Personal</b>",
+			"personal-tab-desc_1": "Paciente Nuevo: Se ingresa la información del paciente y el evaluador es ingresado/seleccionado. La información del paciente se ingresa al crear un nuevo paciente para la prueba. Complete y guarde las pestañas Carta de Presentación y Copiar Reportes a, luego haga clic en OK para guardar la información de la pestaña Personal. La información de cada pestaña de Datos Previos a la Prueba se guarda por separado.",
+			"personal-tab-desc_2": "Paciente Existente: Para pruebas nuevas o posteriores con un paciente existente, haga clic en Módulos en el Menú. Seleccione un paciente, ya sea escribiendo el nombre en la búsqueda para que aparezca y pueda seleccionarlo, o haga clic en la flecha desplegable para ver la lista de pacientes y elegir uno. El paciente existente seleccionado mostrará en la ventana de Datos Previos a la Prueba la información del paciente de la sesión de prueba anterior, con la fecha actual visible. El campo de hora estará en blanco y podrá ingresarse. Si otra información del paciente ha cambiado o necesita actualizarse respecto a la sesión anterior para las pestañas Carta de Presentación o Copiar Reportes a, ingrese y guarde la información actualizada también en esas pestañas. La información actualizada del paciente existente se guarda y correlaciona con la nueva sesión de prueba.",
+			"cover-letter-title": "<b>Pestaña Carta de Presentación</b>",
+			"cover-letter-desc": "La información ingresada en esta pestaña es para el contacto a quien se enviarán los reportes. Ingrese la información de contacto y haga clic en el botón Guardar. La información de contacto para la pestaña Carta de Presentación ahora está guardada. El botón Recordar abre los contactos guardados para seleccionar uno. La información del contacto seleccionado se ingresa automáticamente en las celdas de la pestaña. Haga clic en Guardar para guardar el contacto recordado para la pestaña Carta de Presentación.",
+			"copy-reports-title": "<b>Pestaña Copiar Reportes a<b>",
+			"copy-reports-desc": "La información ingresada en esta pestaña es para el contacto o contactos a quienes se enviarán copias de los reportes. Ingrese la información de contacto y haga clic en el botón Guardar. La información de contacto ahora está guardada para la pestaña Copiar Reportes a. El botón Recordar abre los contactos guardados para seleccionar uno. La información del contacto seleccionado se ingresa automáticamente en las celdas de la pestaña. Haga clic en Guardar para guardar el contacto recordado para la pestaña Copiar Reportes a."
+		},
+
+		"open-patient": {
+			"title": "Abrir Paciente Existente",
+			"desc": "El Directorio de Pacientes muestra la lista de pacientes existentes para abrir y revisar su información. Se puede buscar/ubicar un paciente escribiendo su nombre en la ventana de búsqueda o usando la barra de desplazamiento para buscar."
+		}
+	},
+
+	"home": {
+		"patient": {
+			"new": {
+				"title": "<b>PACIENTE NUEVO/EXISTENTE</b>",
+				"btn": "Haga clic en el botón NUEVO en la pantalla principal para crear un paciente nuevo. La pantalla de Módulos muestra la ventana de Datos Previos a la Prueba para ingresar la información del nuevo paciente. Para un paciente existente seleccionado, la información de Datos Previos a la Prueba puede actualizarse y guardarse para una nueva sesión de prueba.",
+				"personal-title": "<b>Pestaña Personal</b>",
+				"personal-desc-1": "Paciente Nuevo: Se ingresa la información del paciente y se ingresa/selecciona al evaluador. La información del paciente se ingresa al crear un nuevo paciente para la prueba. Complete y guarde las pestañas Carta de Presentación y Copiar Reportes a, luego haga clic en OK para guardar la información de la pestaña Personal. La información de cada pestaña de Datos Previos a la Prueba se guarda por separado.",
+				"personal-desc-2": "Paciente Existente: Para pruebas nuevas o subsecuentes con un paciente existente, haga clic en Módulos en el Menú. Seleccione un paciente, ya sea comenzando a escribir el nombre en la búsqueda para que aparezca y pueda seleccionarlo, o haga clic en la flecha desplegable para ver la lista de pacientes y elegir uno. El paciente existente seleccionado mostrará en la ventana de Datos Previos a la Prueba la información del paciente de la sesión de prueba anterior y la fecha actual. El campo de hora estará en blanco y se podrá ingresar la hora. Si otra información del paciente también ha cambiado o necesita actualizarse desde la sesión anterior para las pestañas Carta de Presentación o Copiar Reportes a, ingrese y guarde la información actualizada también en esas pestañas. La información actualizada del paciente existente se guarda y correlaciona con la nueva sesión de prueba.",
+				"cover-title": "<b>Pestaña Carta de Presentación</b>",
+				"cover-desc": "La información ingresada en esta pestaña es para el contacto a quien se enviarán los reportes. Ingrese la información de contacto y haga clic en el botón Guardar. La información de contacto para la pestaña Carta de Presentación ahora está guardada. El botón Recordar abre los contactos guardados para seleccionar uno. La información del contacto seleccionado se ingresa automáticamente en las celdas de la pestaña. Haga clic en Guardar para guardar el contacto recordado para la pestaña Carta de Presentación.",
+				"copy-title": "<b>Pestaña Copiar Reportes a</b>",
+				"copy-desc": "La información ingresada en esta pestaña es para el contacto o contactos a quienes se enviarán copias de los reportes. Ingrese la información de contacto y haga clic en el botón Guardar. La información de contacto ahora está guardada para la pestaña Copiar Reportes a. El botón Recordar abre los contactos guardados para seleccionar uno. La información del contacto seleccionado se ingresa automáticamente en las celdas de la pestaña. Haga clic en Guardar para guardar el contacto recordado para la pestaña Copiar Reportes a."
+			},
+
+			"backup": {
+				"title": "<b>Respaldo </b>",
+				"btn": "Haga clic en el botón RESPALDAR en la pantalla principal para hacer una copia de seguridad de los archivos de pacientes.",
+				"desc": "El botón RESPALDAR puede usarse cuando se desea hacer una copia de seguridad de pacientes diferente al horario de respaldo seleccionado en Utilidades. Al hacer clic en RESPALDAR, se mostrará la ventana Buscar Carpeta. Ubique y seleccione la carpeta de respaldo creada en Configuraciones, y haga clic en el botón OK. Se creará una carpeta de respaldo con los archivos de pacientes. El archivo se nombrará con la fecha en que se hizo el respaldo."
+			},
+
+			"restore": {
+				"title": "<b>Restaurar</b>",
+				"btn": "Haga clic en el botón RESTAURAR en la pantalla principal para restaurar archivos de pacientes.",
+				"desc": "El botón <b>RESTAURAR</b> abre los archivos de respaldo de pacientes, referenciados por la fecha del respaldo. Seleccione la fecha del archivo de respaldo y haga clic en abrir. La información del paciente se restaurará a esa fecha"
+			}
+		},
+
+		"modules": {
+			"pre-test": {
+				"title": "Datos Previos a la Prueba (Pre Test Data)",
+				"desc_1": "La ventana DATOS PREVIOS A LA PRUEBA se mostrará al hacer clic en el botón Nuevo en la pantalla principal para crear un paciente nuevo y realizar una nueva sesión de prueba. Esta ventana también aparece por defecto al seleccionar Módulos en el menú. Se puede seleccionar un paciente existente para actualizar y guardar la información para una nueva sesión de prueba. También se pueden crear nuevos pacientes dentro de Módulos.",
+				"desc_2": "Para seleccionar un paciente existente, empiece a escribir el nombre para que aparezca el paciente, o haga clic en el área Seleccionar un Paciente o en la flecha desplegable para mostrar la lista de pacientes existentes y seleccionar uno. Una vez seleccionado el paciente, la información existente se mostrará en la pestaña Personal. Si alguna información del paciente ha cambiado desde la visita anterior en las pestañas Personal, Carta de Presentación o Copiar Reportes a, actualice la información y guárdela. La información actualizada se guardará y correlacionará con la fecha de la prueba."
+			},
+
+			"inclinometry": {
+				"title": "Inclinometría",
+				"desc": "Haga clic en el botón INCLINOMETRÍA para abrir el Módulo de Prueba de Inclinometría."
+			},
+
+			"muscle-test": {
+				"title": "Prueba de Músculo",
+				"desc_1": "Antes de seleccionar Prueba de Músculo en Módulos para una nueva sesión de prueba, cree un paciente nuevo y guarde la información, o abra un paciente existente, actualice y guarde la información. Después de guardar la información del paciente nuevo o existente, haga clic nuevamente en Módulos en el menú, y seleccione el paciente recién creado o actualizado de la lista para la nueva sesión de prueba. Luego, haga clic en Prueba de Músculo.",
+				"desc_2": "Después de hacer clic en el botón Prueba de Músculo, verifique la conexión del dispositivo en la ventana Conexión del Dispositivo haciendo clic en la imagen del dispositivo mostrada. Tras confirmar la conexión, haga clic en el botón Siguiente. Se mostrará la ventana de Comandos para la Prueba de Músculo.",
+				"commands": "<b>Comandos<b>",
+				"command-1": "<b>Prueba (Test):</b> Use este botón para crear nuevas pruebas musculares o ver las pruebas ya realizadas. Este botón abrirá la ventana de Selección de Músculos.",
+				"command-2": "<b>Protocolos:</b> Use este botón para crear nuevos protocolos, editar o probar protocolos previamente creados. Este botón abrirá la ventana de Selección de Protocolos.",
+				"command-3": "<b>Recomendaciones:</b> Use este botón para seleccionar una recomendación para el paciente. Este botón abrirá la ventana de Recomendaciones.",
+				"command-4": "<b>Repetir Prueba:</b> Use este botón para pacientes que regresan para pruebas adicionales. Por ejemplo, el Sr. Jones tuvo seis músculos evaluados el 15 de enero. El 22 de enero regresa para que le prueben los mismos seis músculos. En lugar de seleccionar los músculos nuevamente, elija este botón y se le llevará directamente a la pantalla de pruebas con los seis músculos ya seleccionados.",
+				"command-5": "<b>Salir:</b> Use este botón para cerrar la aplicación de Prueba de Músculo.",
+				"command-6": "<b>Ayuda:</b> Este botón abre la pantalla principal de ayuda."
+			}
+		},
+
+		"reports": {
+			"title": "<b>Reportes</b>",
+			"letter-title": "Pestaña Carta/Narrativa",
+			"generate-graphical-report-btn": "<b>Generar Informe Gráfico:</b> Este botón se usa para generar todos los informes gráficos juntos, excepto el informe comparativo, para la sesión completada del módulo de prueba. Se crearán las páginas del informe y se abrirá la pantalla para previsualizar/ver los informes. Desde la pantalla de vista previa de impresión, todas las páginas del informe pueden imprimirse en la impresora o guardarse usando una aplicación PDF instalada para generar un archivo PDF.",
+			"generate-report-btn": "<b>Botón Generar Informe:</b> Este botón es para generar páginas de Carta de Presentación o Narrativa cuando una o ambas están seleccionadas. Las páginas se abrirán en un editor de texto para revisar o editar. El usuario decide cómo nombrar y guardar los informes.",
+			"print-preview-btn": "<b>Botón Vista Previa de Impresión:</b> Este botón se utiliza cuando se selecciona el informe comparativo. El informe generado se abrirá para previsualizar/ver. Desde la vista previa de impresión, el informe comparativo puede verse e imprimirse en la impresora o guardarse usando una aplicación PDF instalada para generar un archivo PDF.",
+			"print-btn": "<b>Botón Imprimir:</b> Este botón imprime directamente sin vista previa de impresión, con la opción de imprimir en impresora o guardar usando una aplicación PDF instalada para generar un archivo PDF, cuando se selecciona Carta de Presentación, Carta Narrativa o informe(s) Comparativo(s) en la pestaña.",
+			"close-btn": "<b>Botón Cerrar:</b> Cierra la ventana de Informes.",
+			"save-default-btn": "<b>Botón Guardar Predeterminados y Botón Restaurar Predeterminados:</b> El botón Guardar Predeterminados es una función que ahorra tiempo si suele imprimir los mismos informes para todos sus pacientes. Seleccione los informes que desea imprimir y luego seleccione Guardar Predeterminados. Así, cada vez que quiera imprimir esos informes para un paciente, solo seleccione Restaurar Predeterminados.",
+			"help-btn": "<b>Botón Ayuda:</b> El botón Ayuda proporciona información de ayuda sobre la ventana de Informes.",
+			"module-tab-title": "<b>Pestañas de Módulos</b>",
+			"module-tab-desc": "Desde las pestañas de pruebas en Módulos, se pueden seleccionar opciones de informes gráficos y previsualizarlos. Los informes seleccionados y generados pueden imprimirse o guardarse usando una aplicación PDF instalada para generar un archivo PDF."
+		},
+
+		"utility": {
+			"utility-title": "<b>Utilidades</b>",
+			"setting": "<b>Configuraciones</b>",
+			"setting-desc": "La ventana de Configuraciones contiene parámetros para la configuración inicial del software después de la instalación, o cuando se necesite cambiar la configuración. Después de seleccionar los parámetros para la configuración inicial o actualización, haga clic en el botón GUARDAR para guardar sus selecciones.",
+			"setting-desc-2": "Para Selección de Dispositivo y Puertos Disponibles, el software detecta automáticamente el dispositivo seleccionado y el puerto COM al que está conectado el dongle USB."
+		},
+
+		"help": {
+			"title": "<b>Ayuda</b>",
+			"desc": "El menú de Ayuda ofrece lo siguiente para brindarle asistencia con esta aplicación:",
+			"topic": "<b>Temas de Ayuda:</b> Ofrece un índice de temas en los que puede obtener información de ayuda.",
+			"about": "<b>Acerca de:</b> Muestra el número de versión de esta aplicación."
+		}
+	},
+
+	"faq": {
+		"trouble-shooting": {
+			"title": "<b>Solución de Problemas</b>",
+			"desc": "No hay comunicación entre el software y el dispositivo:",
+			"step-1": "Vaya al Administrador de Dispositivos en la computadora, haciendo clic derecho en el botón “Inicio” en la barra de tareas y seleccione “Administrador de Dispositivos”. En el Administrador de Dispositivos, si no aparece el dispositivo “Puerto serie USB” en la sección de puertos, revise en “otros dispositivos” para un “FTDI USB UART”. Si está ubicado en otros dispositivos, significa que el controlador no está instalado. <br /> Para actualizar el controlador, haga clic derecho en “FT232R USB UART” y seleccione “Actualizar controlador”. Luego seleccione “Buscar en esta computadora” y apunte a la carpeta de controladores USB descargada que Hoggan Scientific proporcionó con su compra del software. Seleccione la carpeta y haga clic en OK. El controlador debería instalarse. Esto debe hacerse dos veces, una para el controlador USB y otra para el controlador del puerto COM. También puede ir al sitio web de FTDI Chip en https://ftdichip.com/ y descargar el controlador USB desde allí para instalarlo.",
+			"step-2": "Verifique que el módulo inalámbrico RF del dispositivo esté encendido. Para MicroFET2, si el punto decimal delante de H/L en la pantalla LCD derecha no es visible, asegúrese de que el módulo RF esté encendido. Consulte el manual de usuario para instrucciones. Para otros dispositivos MicroFET, consulte también el manual de usuario.",
+			"step-3": "Si el punto decimal delante de H/L en la pantalla derecha no parpadea en MicroFET2, verifique el número en el dongle FET Stick. Debe coincidir con el número de serie del MicroFET2 al que se está conectando. Cuando todo funcione correctamente, el punto decimal delante de la H en la pantalla LCD del MicroFET2 debe estar encendido y parpadeando, y el LED en el FET Stick debe estar encendido fijo (sin parpadear). Para verificar el punto decimal en otros dispositivos MicroFET, consulte el manual de usuario.",
+			"step-4": "Cada vez que se retire el FET Stick del puerto USB mientras el software está abierto, se perderá la conexión inalámbrica. Regrese a la pantalla de Módulos después de volver a insertar el FET Stick. Luego seleccione nuevamente el módulo de prueba deseado. Cuando se muestre la pantalla de Conexión del Dispositivo, haga clic en la imagen del dispositivo en la ventana para verificar la conexión. En algunos casos, puede ser necesario cerrar y volver a abrir el programa para recuperar la conexión.",
+			"step-5": "Si usa más de un dispositivo MicroFET con el software, asegúrese de que el número de serie en el FET Stick coincida con el número de serie del dispositivo que se va a probar. Los FET Sticks no son intercambiables.",
+			"step-6": "El dispositivo no enciende: Puede que la batería recargable necesite cargarse. Consulte el manual del usuario del dispositivo MicroFET para instrucciones sobre cómo recargar la batería. Para evitar interrupciones durante la prueba debido a batería baja, se recomienda verificar regularmente el nivel de batería restante y recargar cuando llegue aproximadamente al 15%. Para verificar la batería, siga las instrucciones de verificación de batería en el manual del producto."
+		},
+
+		"faq": {
+			"title": "Preguntas Frecuentes (FAQ’s)",
+			"question-1": "<b>¿Cómo puedo contactar al soporte de Hoggan Scientific para asistencia con el software o el dispositivo?</b>",
+			"answer-1": "Contacte a Hoggan Scientific por teléfono al 801-572-6500 / 800-678-7888, o por correo electrónico a sales@hogganscientific.com. Para asistencia con el software, tenga a mano la información de la versión del software para proporcionarla.",
+			"question-2": "<b>¿Cuáles son los requisitos mínimos de la computadora para ejecutar el software?</b>",
+			"min-req": "Requisitos mínimos del sistema:",
+			"answer-2": "<li>Sistema operativo: Windows 10, versión 64 bits 20H2</li><li>Procesador: Intel Core 2 Quad Q6600 @2.40 GHz (4 CPUs) / AMD Phenom 9850 Quad Core (4 CPUs) @2.5 GHz</li><li>Memoria: 8 GB</li><li>Espacio en disco: 200 megabytes</li><li>1 puerto USB libre</li>"
+		}
+	}
+}
