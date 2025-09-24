@@ -8,7 +8,7 @@
     <meta content="" name="description" />
 
     <!-- Favicon -->
-    <link href="../img/fav.png" rel="icon" />
+    <link href="../img/favicon.ico" rel="icon" />
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -50,108 +50,312 @@
         </div>
         <!-- Spinner End -->
         <!-- Sidebar Start -->
-        <div class="sidebar pb-3">
-            <nav class="navbar bg-light navbar-light">
-                <a href="./index.html" class="navbar-brand mx-4 mb-3">
-                    <h3 class="text-primary">Help Contents</h3>
-                </a>
-                <div class="navbar-nav w-100">
-                    <div class="menujq">
-                        <ul>
-                            <li><a href="./about.html">About</a></li>
+        <div class="sidebar pe-4 pb-3">
+        <nav class="navbar bg-light navbar-light">
+          <a
+            href="../index.html"
+            class="navbar-brand mx-4 mb-3"
+            style="text-wrap: wrap"
+          >
+            <h5 data-lang="side-bar.help-contents" class="text-primary">
+              Help Contents
+            </h5>
+          </a>
+          <div class="navbar-nav w-100">
+            <div class="menujq">
+              <ul>
+                <li>
+                  <a
+                    data-slot="side-bar"
+                    data-lang="side-bar.about"
+                    href="./about.html"
+                  >
+                    About
+                  </a>
+                </li>
+                <li>
+                  <a
+                    data-slot="side-bar"
+                    data-lang="side-bar.how-to"
+                    href="javascript:void();"
+                  >
+                    How To
+                  </a>
+                  <ul>
+                    <li>
+                      <a
+                        data-slot="side-bar"
+                        data-lang="side-bar.initial-setup"
+                        href="./initialSetup.html"
+                      >
+                        Initial Setup
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        data-slot="side-bar"
+                        data-lang="side-bar.create-new-patient"
+                        href="./createNewPatient.html"
+                      >
+                        Create New Patient
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        data-slot="side-bar"
+                        data-lang="side-bar.open-existing-patient"
+                        href="./openExistingPatient.html"
+                      >
+                        Open Existing Patient
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a
+                    data-slot="side-bar"
+                    data-lang="side-bar.home-screen"
+                    href="javascript:void();"
+                  >
+                    Home Screen Menu
+                  </a>
+                  <ul>
+                    <li>
+                      <a
+                        data-slot="side-bar"
+                        data-lang="side-bar.patient"
+                        href="javascript:void();"
+                      >
+                        Patient
+                      </a>
+                      <ul>
+                        <li>
+                          <a
+                            data-slot="side-bar"
+                            data-lang="side-bar.new"
+                            href="./patient.html"
+                          >
+                            New
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            data-slot="side-bar"
+                            data-lang="side-bar.open"
+                            href="./openExistingPatient.html"
+                          >
+                            Open
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            data-slot="side-bar"
+                            data-lang="side-bar.backup"
+                            href="./backup.html"
+                          >
+                            Backup
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            data-slot="side-bar"
+                            data-lang="side-bar.restore"
+                            href="./restore.html"
+                          >
+                            Restore
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a
+                        data-slot="side-bar"
+                        data-lang="side-bar.modules"
+                        href="javascript:void();"
+                      >
+                        Modules
+                      </a>
+                      <ul>
+                        <li>
+                          <a
+                            data-slot="side-bar"
+                            data-lang="side-bar.pre-test"
+                            href="./pretestdata.html"
+                          >
+                            Pre Test Data
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="javascript:void();"
+                            data-lang="side-bar.hand-test"
+                          >
+                            Hand Test
+                          </a>
+                          <ul>
                             <li>
-                                <a href="javascript:void();">How To</a>
-                                <ul>
-                                    <li>
-                                        <a href="./initialSetup.html">Initial Setup</a>
-                                    </li>
-                                    <li>
-                                        <a href="./createNewPatient.html">Create New Patient</a>
-                                    </li>
-                                    <li>
-                                        <a href="./openExistingPatient.html">Open Existing Patient</a>
-                                    </li>
-                                </ul>
+                              <a
+                                data-slot="side-bar"
+                                data-lang="side-bar.grip-strength"
+                                href="./gripstrength.html"
+                              >
+                                Grip Strength
+                              </a>
                             </li>
                             <li>
-                                <a href="javascript:void();">Home Screen Menu</a>
-                                <ul>
-                                    <li>
-                                        <a href="javascript:void();">Patient</a>
-                                        <ul>
-                                            <li><a href="./patient.html">New</a></li>
-                                            <li><a href="./openExistingPatient.html">Open</a></li>
-                                            <li><a href="./backup.html">Backup</a></li>
-                                            <li><a href="./restore.html">Restore</a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="javascript:void();">Modules</a>
-                                        <ul>
-                                            <li>
-                                                <a href="./pretestdata.html">Pre Test Data</a>
-                                            </li>
-                                            <li>
-                                                <a href="javascript:void();">Hand Test</a>
-                                                <ul>
-                                                    <li>
-                                                        <a href="./gripstrength.html">Grip Strength</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="./fivepositiontest.html">Five Position Test</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="./rapidexchange.html">Rapid Exchange Grip</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="./fatiguetest.html">Fatigue Test</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="./keypinch.html">Key Pinch</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="./tippinch.html">Tip Pinch</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="./palmarpinch.html">Palmar Pinch</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="./purduepegboard.html">Purdue Pegboard</a>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                            <li>
-                                                <a href="./inclinometry.html">Inclinometry</a>
-                                            </li>
-                                            <li>
-                                                <a href="./MuscleTest.html">Muscle Test</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="./reports.html">Reports</a></li>
-                                    <li><a href="./utilities.html">Utilities</a></li>
-                                    <li><a href="./help.html">Help</a></li>
-                                </ul>
+                              <a
+                                data-slot="side-bar"
+                                data-lang="side-bar.five-position"
+                                href="./fivepositiontest.html"
+                              >
+                                Five Position Test
+                              </a>
                             </li>
+                            <li>
+                              <a
+                                data-slot="side-bar"
+                                data-lang="side-bar.rapid-exchange-grip"
+                                href="./rapidexchange.html"
+                              >
+                                Rapid Exchange Grip
+                              </a>
+                            </li>
+                            <li>
+                              <a
+                                data-slot="side-bar"
+                                data-lang="side-bar.fatique-test"
+                                href="./fatiguetest.html"
+                              >
+                                Fatigue Test
+                              </a>
+                            </li>
+                            <li>
+                              <a
+                                data-slot="side-bar"
+                                data-lang="side-bar.key-pinch"
+                                href="./keypinch.html"
+                              >
+                                Key Pinch
+                              </a>
+                            </li>
+                            <li>
+                              <a
+                                data-slot="side-bar"
+                                data-lang="side-bar.tip-pinch"
+                                href="./tippinch.html"
+                              >
+                                Tip Pinch
+                              </a>
+                            </li>
+                            <li>
+                              <a
+                                data-slot="side-bar"
+                                data-lang="side-bar.palmar-pinch"
+                                href="./palmarpinch.html"
+                              >
+                                Palmar Pinch
+                              </a>
+                            </li>
+                            <li>
+                              <a
+                                data-slot="side-bar"
+                                data-lang="side-bar.purdue-pegboard"
+                                href="./purduepegboard.html"
+                              >
+                                Purdue Pegboard
+                              </a>
+                            </li>
+                          </ul>
+                        </li>
+                        <li>
+                          <a
+                            data-slot="side-bar"
+                            data-lang="side-bar.Inclinometry"
+                            href="./inclinometry.html"
+                          >
+                            Inclinometry
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            data-slot="side-bar"
+                            data-lang="side-bar.muscle-test"
+                            href="./MuscleTest.html"
+                          >
+                            Muscle Test
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a
+                        data-slot="side-bar"
+                        data-lang="side-bar.reports"
+                        href="./reports.html"
+                      >
+                        Reports
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        data-slot="side-bar"
+                        data-lang="side-bar.utilities"
+                        href="./utilities.html"
+                      >
+                        Utilities
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        data-slot="side-bar"
+                        data-lang="side-bar.help"
+                        href="./help.html"
+                      >
+                        Help
+                      </a>
+                    </li>
+                  </ul>
+                </li>
 
-                            <li>
-                                <a href="javascript:void();">Trouble Shooting / FAQ's</a>
-                                <ul>
-                                    <li><a href="./TroubleShooting.html">Trouble Shooting</a></li>
-                                    <li><a href=Faq.html>Frequently Asked Questions (FAQ's)</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </div>
+                <li>
+                  <a
+                    data-slot="side-bar"
+                    data-slot-lang="side-bar.troubleshooting-faq"
+                    href="javascript:void();"
+                    >Trouble Shooting / FAQ's</a
+                  >
+                  <ul>
+                    <li>
+                      <a
+                        data-slot="side-bar"
+                        data-slot-lang="side-bar.trouble-shooting"
+                        href="./TroubleShooting.html"
+                      >
+                        Trouble Shooting
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        data-slot="side-bar"
+                        data-slot-lang="side-bar.faq"
+                        href="Faq.html"
+                      >
+                        Frequently Asked Questions (FAQ's)
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
         <!-- Sidebar End -->
         <!-- Content Start -->
         <div class="content">
             <!-- Navbar Start -->
             <nav class="navbar navbar-expand bg-light navbar-light sticky-top px-4 py-0">
-                <a href="index.html" class="navbar-brand d-flex d-lg-none me-4">
+                <a href="../index.html" class="navbar-brand d-flex d-lg-none me-4">
                     <h2 class="text-primary mb-0"><i class="fa fa-hashtag"></i></h2>
                 </a>
                 <a href="#" class="sidebar-toggler flex-shrink-0">
