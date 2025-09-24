@@ -15,7 +15,7 @@
 
 		<!-- Favicon -->
 		<link
-			href="../img/favicon.ico"
+			href="../img/fav.png"
 			rel="icon" />
 
 		<!-- Google Web Fonts -->
@@ -61,7 +61,11 @@
 	</head>
 
 	<body>
-   <div id="languageCode" style="display: none;">$languageCode</div>
+		<div
+			id="languageCode"
+			style="display: none">
+			$languageCode
+		</div>
 		<div class="container-xxl position-relative bg-white page-wrapper p-0">
 			<!-- Spinner Start -->
 			<div
@@ -80,8 +84,9 @@
 				<nav class="navbar bg-light navbar-light">
 					<a
 						href="./index.html"
-						class="navbar-brand mx-4 mb-3" style="text-wrap: wrap;">
-						<h3
+						class="navbar-brand mx-4 mb-3"
+						style="text-wrap: wrap">
+						<h5
 							data-lang="side-bar.help"
 							class="text-primary">
 							Help Contents
@@ -93,7 +98,7 @@
 								<li>
 									<a
 										data-slot="side-bar"
-                                        data-lang="side-bar.about"
+										data-lang="side-bar.about"
 										href="./about.html">
 										About
 									</a>
@@ -101,7 +106,7 @@
 								<li>
 									<a
 										data-slot="side-bar"
-                                        data-lang="side-bar.how-to"
+										data-lang="side-bar.how-to"
 										href="javascript:void();">
 										How To
 									</a>
@@ -109,15 +114,15 @@
 										<li>
 											<a
 												data-slot="side-bar"
-                                                data-lang="side-bar.initial-setup"
-												href="./initialSetup.html" >
+												data-lang="side-bar.initial-setup"
+												href="./initialSetup.html">
 												Initial Setup
 											</a>
 										</li>
 										<li>
 											<a
 												data-slot="side-bar"
-                                                data-lang="side-bar.create-new-patient"
+												data-lang="side-bar.create-new-patient"
 												href="./createNewPatient.html">
 												Create New Patient
 											</a>
@@ -125,7 +130,7 @@
 										<li>
 											<a
 												data-slot="side-bar"
-                                                data-lang="side-bar.open-existing-patient"
+												data-lang="side-bar.open-existing-patient"
 												href="./openExistingPatient.html">
 												Open Existing Patient
 											</a>
@@ -135,7 +140,7 @@
 								<li>
 									<a
 										data-slot="side-bar"
-                                        data-lang="side-bar.home-screen"
+										data-lang="side-bar.home-screen"
 										href="javascript:void();">
 										Home Screen Menu
 									</a>
@@ -143,7 +148,7 @@
 										<li>
 											<a
 												data-slot="side-bar"
-                                                data-lang="side-bar.patient"
+												data-lang="side-bar.patient"
 												href="javascript:void();">
 												Patient
 											</a>
@@ -151,7 +156,7 @@
 												<li>
 													<a
 														data-slot="side-bar"
-                                                        data-lang="side-bar.new"
+														data-lang="side-bar.new"
 														href="./patient.html">
 														New
 													</a>
@@ -159,7 +164,7 @@
 												<li>
 													<a
 														data-slot="side-bar"
-                                                        data-lang="side-bar.open"
+														data-lang="side-bar.open"
 														href="./openExistingPatient.html">
 														Open
 													</a>
@@ -167,7 +172,7 @@
 												<li>
 													<a
 														data-slot="side-bar"
-                                                        data-lang="side-bar.backup"
+														data-lang="side-bar.backup"
 														href="./backup.html">
 														Backup
 													</a>
@@ -175,7 +180,7 @@
 												<li>
 													<a
 														data-slot="side-bar"
-                                                        data-lang="side-bar.restore"
+														data-lang="side-bar.restore"
 														href="./restore.html">
 														Restore
 													</a>
@@ -185,7 +190,7 @@
 										<li>
 											<a
 												data-slot="side-bar"
-                                                data-lang="side-bar.modules"
+												data-lang="side-bar.modules"
 												href="javascript:void();">
 												Modules
 											</a>
@@ -193,18 +198,22 @@
 												<li>
 													<a
 														data-slot="side-bar"
-                                                        data-lang="side-bar.pre-test"
+														data-lang="side-bar.pre-test"
 														href="./pretestdata.html">
 														Pre Test Data
 													</a>
 												</li>
 												<li>
-													<a href="javascript:void();" data-lang="side-bar.hand-test">Hand Test</a>
+													<a
+														href="javascript:void();"
+														data-lang="side-bar.hand-test">
+														Hand Test
+													</a>
 													<ul>
 														<li>
 															<a
 																data-slot="side-bar"
-                                                                data-lang="side-bar.grip-strength"
+																data-lang="side-bar.grip-strength"
 																href="./gripstrength.html">
 																Grip Strength
 															</a>
@@ -212,7 +221,7 @@
 														<li>
 															<a
 																data-slot="side-bar"
-                                                                data-lang="side-bar.key-position"
+																data-lang="side-bar.key-position"
 																href="./fivepositiontest.html">
 																Five Position Test
 															</a>
@@ -428,9 +437,7 @@
 
 		<!-- for language change -->
 		<script src="https://unpkg.com/i18next@latest/dist/umd/i18next.min.js"></script>
-		<script
-			 
-			src=" ../js/lang.bundle.js"></script>
+		<script src="../dist/lang.bundle.js"></script>
 
 		<!-- Template Javascript -->
 		<script src="../js/main.js"></script>

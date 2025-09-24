@@ -20,6 +20,13 @@
 		"Inclinometry": "Inclinometría"
 	},
 
+	"index": {
+		"welcome": "Bienvenido a la ayuda científica de Hoggan",
+		"use": "Utilice la información de Ayuda para responder sus preguntas y solucionar problemas.",
+		"how": "<b>Cómo utilizar la ayuda</b>",
+		"ans": "Seleccione un tema de ayuda en la Tabla de contenido a la izquierda y haga clic para abrir la información."
+	},
+
 	"about": {
 		"title": "Ayuda Acerca de",
 		"description": "Esta Ayuda describe el uso del software MicroFET en combinación con los dispositivos MicroFET para pruebas."

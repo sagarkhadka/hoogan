@@ -15,7 +15,7 @@
 
 		<!-- Favicon -->
 		<link
-			href="img/favicon.ico"
+			href="img/fav.png"
 			rel="icon" />
 
 		<!-- Google Web Fonts -->
@@ -61,11 +61,11 @@
 	</head>
 
 	<body>
-		<h1
+		<span
 			id="languageCode"
 			style="display: none">
-			$languageCode
-		</h1>
+			es-ES
+		</span>
 		<div class="container-xxl position-relative bg-white page-wrapper p-0">
 			<!-- Spinner Start -->
 			<div
@@ -424,13 +424,13 @@
 
 				<!-- Index Content Start -->
 				<div class="container-fluid pt-4 px-4">
-					<h1>Welcome to Hoggan Scientific Help</h1>
+					<h1 data-lang="index.welcome">Welcome to Hoggan Scientific Help</h1>
 					<br />
-					<p>Use Help information to answer your questions and trouble shoot.</p>
+					<p data-lang="index.use">Use Help information to answer your questions and trouble shoot.</p>
 					<br />
-					<h5><b>How to use help</b></h5>
+					<h5 data-lang="index.how"><b>How to use help</b></h5>
 
-					<p>Select a help topic in Table of Contents to left, and click to open information.</p>
+					<p data-lang="index.ans">Select a help topic in Table of Contents to left, and click to open information.</p>
 					<br />
 					<br />
 				</div>
@@ -456,7 +456,7 @@
 
 		<!-- for language change -->
 		<script src="https://unpkg.com/i18next@latest/dist/umd/i18next.min.js"></script>
-		<script src=" ./js/lang.bundle.js"></script>
+		<script src=" ./dist/lang.bundle.js"></script>
 
 		<!-- Template Javascript -->
 		<script src="./js/main.js"></script>

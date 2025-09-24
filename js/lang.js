@@ -14,7 +14,7 @@ window.addEventListener('DOMContentLoaded', async () => {
 	const lang = (() => {
 		const queryParams = new URLSearchParams(window.location.search).get('lang')
 		if (queryParams == null) {
-			const code = document.getElementById('languageCode').innerText
+			const code = document.getElementById('languageCode').innerText.trim()
 			if (code == '$languageCode') {
 				return null
 			} else return code
