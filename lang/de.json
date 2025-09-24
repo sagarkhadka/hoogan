@@ -1,0 +1,170 @@
+{
+  "side-bar": {
+    "help-contents": "HILFE-INHALTE",
+    "about": "ÜBER",
+    "how-to": "ANLEITUNG",
+    "initial-setup": "ERSTEINRICHTUNG",
+    "create-new-patient": "NEUEN PATIENTEN ANLEGEN",
+    "open-existing-patient": "BESTEHENDEN PATIENTEN ÖFFNEN",
+    "home-screen": "STARTBILDSCHIRM-MENÜ",
+    "patient": "PATIENT",
+    "new": "NEU",
+    "open": "ÖFFNEN",
+    "backup": "SICHERN",
+    "restore": "WIEDERHERSTELLEN",
+    "modules": "MODULE",
+    "pre-test": "VORDATEN ",
+    "hand-test": "HANDTEST",
+    "grip-strength": "GRIFFKRAFT",
+    "five-position": "FÜNF-POSITIONEN-TEST",
+    "rapid-exchange-grip": "SCHNELLWECHSEL-GRIFF",
+    "fatigue-test": "ERMÜDUNGSTEST",
+    "key-pinch": "SCHLÜSSELZANGENGRIFF",
+    "tip-pinch": "SPITZENZANGENGRIFF",
+    "palmar-pinch": "PALMARER ZANGENGRIFF",
+    "purdue-pegboard": "Purdue Pegboard",
+    "Inclinometry": "Inclinometría",
+    "muscle-test": "MUSKELTEST",
+    "reports": "BERICHTE",
+    "utilities": "DIENSTPROGRAMME",
+    "help": "HILFE",
+    "troubleshooting-faq": "PROBLEMBEHEBUNG / FAQ",
+    "trouble-shooting": "FEHLERBEHEBUNG",
+    "faq": "HÄUFIG GESTELLTE FRAGEN (FAQ)"
+  },
+
+  "about": {
+    "title": "Hilfe Über",
+    "description": "Diese Hilfe beschreibt die Verwendung der MicroFET-Software in Kombination mit MicroFET-Geräten für Testzwecke."
+  },
+
+  "how-to": {
+    "initial-setup": {
+      "menu-title": "<b>MENÜ – DIENSTPROGRAMME<b>",
+      "title": "Einstellungen",
+      "desc_1": "<b>Einstellungen:</b> Das Einstellungsfenster enthält Parameter für die erste Einrichtung der Software nach der Installation oder wenn Parameter geändert werden müssen. Nachdem die Parameter für die Ersteinrichtung oder Aktualisierung ausgewählt wurden, klicken Sie auf die Schaltfläche SPEICHERN, um Ihre Auswahl zu speichern.",
+      "desc_2": "Für verfügbare Ports erkennt die Software automatisch den an den USB-Anschluss angeschlossenen COM-Port-Dongle."
+    },
+
+    "create-new-patient": {
+      "title": "NEUER/BESTEHENDER PATIENT",
+      "step-1": "Klicken Sie auf die Schaltfläche NEU auf dem Startbildschirm, um einen neuen Patienten anzulegen. Der Modulbildschirm zeigt das Fenster Vordaten an, in dem Sie neue Patientendaten eingeben können. Bei Auswahl eines bestehenden Patienten können die Vordaten aktualisiert und für eine neue Testsitzung gespeichert werden.",
+      "personal-tab-title": "<b>Reiter \"Persönlich;\"</b>",
+      "personal-tab-desc_1": "Neuer Patient: Patienteninformationen werden eingegeben und ein Untersucher ausgewählt/eingegeben. Die Informationen werden bei der Erstellung eines neuen Patienten für Testzwecke erfasst. Vervollständigen und speichern Sie die Reiter Anschreiben und Berichte senden an, und klicken Sie anschließend auf OK, um die Informationen im Reiter \"Persönlich;\" zu speichern. Jede Registerkarte der Vordaten wird separat gespeichert.",
+      "personal-tab-desc_2": "Bestehender Patient: Für neue oder nachfolgende Tests mit einem bestehenden Patienten klicken Sie im Menü auf Module. Wählen Sie einen Patienten aus, indem Sie entweder den Namen in das Suchfeld eingeben, bis er angezeigt wird, und dann auswählen, oder klicken Sie auf den Dropdown-Pfeil, um die Patientenliste anzuzeigen und einen Patienten auszuwählen. Im Fenster Vordaten werden die Patientendaten der vorherigen Testsitzung angezeigt, sowie das aktuelle Datum. Das Zeitfeld ist leer und kann neu eingegeben werden. Wenn sich weitere Informationen des Patienten seit der letzten Testsitzung geändert haben oder aktualisiert werden müssen (z. B. im Reiter Anschreiben oder Berichte senden an), geben Sie die neuen Informationen ein und speichern Sie sie. Die aktualisierten Patientendaten werden gespeichert und mit der neuen Testsitzung verknüpft.",
+      "cover-letter-title": "<b>Reiter \"Anschreiben;\"</b>",
+      "cover-letter-desc": "Die in diesem Reiter eingegebenen Informationen dienen dem Versand der Berichte an eine Kontaktperson. Geben Sie die Kontaktdaten ein und klicken Sie auf Speichern. Die Kontaktdaten für das Anschreiben sind nun gespeichert. Über die Schaltfläche Abrufen können gespeicherte Kontakte aufgerufen und ausgewählt werden. Die ausgewählten Kontaktdaten werden automatisch in die Felder des Reiters übernommen. Klicken Sie erneut auf Speichern, um den abgerufenen Kontakt für das Anschreiben zu sichern.",
+      "copy-reports-title": "<b>Reiter \"Berichte senden an;\"<b>",
+      "copy-reports-desc": "Die hier eingegebenen Informationen betreffen weitere Kontaktpersonen, an die Berichte gesendet werden sollen. Geben Sie die Kontaktdaten ein und klicken Sie auf Speichern. Die Kontaktdaten sind nun für diesen Reiter gespeichert. Über die Schaltfläche Abrufen können gespeicherte Kontakte ausgewählt werden. Die ausgewählten Kontaktdaten werden automatisch in die Felder eingefügt. Klicken Sie erneut auf Speichern, um den abgerufenen Kontakt für diesen Reiter zu sichern."
+    },
+
+    "open-patient": {
+      "title": "Bestehenden Patienten öffnen",
+      "desc": "Das Patientenverzeichnis zeigt eine Liste bestehender Patienten an, die geöffnet und deren Informationen überprüft werden können. Patienten können entweder durch Eingabe des Namens im Suchfeld oder über die Bildlaufleiste gesucht und gefunden werden."
+    }
+  },
+
+  "home": {
+    "patient": {
+      "new": {
+        "title": "<b>NEUER/BESTEHENDER PATIENT</b>",
+        "btn": "Klicken Sie auf die Schaltfläche NEU auf dem Startbildschirm, um einen neuen Patienten anzulegen. Der Bildschirm Module zeigt das Fenster Vordaten an, in dem neue Patienteninformationen eingegeben werden können. Bei Auswahl eines bestehenden Patienten können die Vordaten aktualisiert und für eine neue Testsitzung gespeichert werden.",
+        "personal-title": "<b>Reiter \"Persönlich;\"</b>",
+        "personal-desc-1": "Neuer Patient: Patienteninformationen und Untersucher werden eingegeben bzw. ausgewählt. Diese Informationen werden beim Anlegen eines neuen Patienten für Tests eingegeben. Vervollständigen und speichern Sie die Reiter Anschreiben und Berichte senden an, und klicken Sie anschließend auf OK, um die Informationen im Reiter \"Persönlich;\" zu sichern. Die Informationen in jedem Reiter der Vordaten werden separat gespeichert.",
+        "personal-desc-2": "Bestehender Patient: Für neue oder nachfolgende Tests mit einem bestehenden Patienten klicken Sie im Menü auf Module. Wählen Sie einen Patienten aus, indem Sie mit der Eingabe des Namens im Suchfeld beginnen, um den Namen anzeigen zu lassen und den Patienten auszuwählen. Oder klicken Sie auf den Dropdown-Pfeil, um die Patientenliste anzuzeigen und einen Patienten auszuwählen. Der ausgewählte Patient wird im Fenster Vordaten mit den Informationen der vorherigen Testsitzung und dem aktuellen Datum angezeigt. Das Zeitfeld ist leer und kann neu eingegeben werden. Wenn sich weitere Informationen seit der letzten Sitzung geändert haben oder aktualisiert werden müssen (z. B. im Reiter Anschreiben oder Berichte senden an), geben Sie diese ebenfalls ein und speichern Sie sie. Die aktualisierten Daten werden gespeichert und mit der neuen Testsitzung verknüpft.",
+        "cover-title": "<b>Reiter \"Anschreiben;\"</b>",
+        "cover-desc": "Die in diesem Reiter eingegebenen Informationen betreffen die Kontaktperson, an die Berichte gesendet werden sollen. Geben Sie die Kontaktdaten ein und klicken Sie auf Speichern. Die Kontaktdaten im Reiter \"Anschreiben;\" sind nun gespeichert. Die Schaltfläche Abrufen öffnet gespeicherte Kontakte, aus denen Sie auswählen können. Die ausgewählten Kontaktdaten werden automatisch in die Felder eingefügt. Klicken Sie erneut auf Speichern, um den abgerufenen Kontakt im Reiter \"Anschreiben;\" zu sichern.",
+        "copy-title": "<b>Reiter \"Berichte senden an;\"</b>",
+        "copy-desc": "Hier werden die Kontaktdaten der Person(en) eingegeben, an die eine Kopie der Berichte gesendet werden soll. Geben Sie die Kontaktdaten ein und klicken Sie auf Speichern. Die Kontaktdaten sind nun für diesen Reiter gespeichert. Die Schaltfläche Abrufen öffnet gespeicherte Kontakte zur Auswahl. Die ausgewählten Daten werden automatisch in die Felder eingetragen. Klicken Sie erneut auf Speichern, um den abgerufenen Kontakt im Reiter \"Berichte senden an;\" zu sichern."
+      },
+
+      "backup": {
+        "title": "<b>Sicherung  </b>",
+        "btn": "Klicken Sie auf die Schaltfläche RESTORE auf dem Startbildschirm, um Patientendateien wiederherzustellen.",
+        "desc": "Die BACKUP-Schaltfläche kann verwendet werden, wenn Patienten außerhalb des im Menü Dienstprogramme definierten Sicherungsplans gesichert werden sollen. Nach dem Klick auf BACKUP öffnet sich das Fenster Ordner durchsuchen. Wählen Sie den im Reiter Einstellungen erstellten Sicherungsordner aus und klicken Sie auf OK. Ein Sicherungsordner mit Patientendateien wird erstellt. Die Datei wird nach dem Sicherungsdatum benannt."
+      },
+
+      "restore": {
+        "title": "<b>Wiederherstellung  </b>",
+        "btn": "Klicken Sie auf die Schaltfläche RESTORE auf dem Startbildschirm, um Patientendateien wiederherzustellen.",
+        "desc": "Die RESTORE-Schaltfläche öffnet die Sicherungsdateien der Patienten, die nach dem Sicherungsdatum benannt sind. Wählen Sie das Sicherungsdatum aus und klicken Sie auf Öffnen. Die Patienteninformationen werden für dieses Datum wiederhergestellt."
+      }
+    },
+
+    "modules": {
+      "pre-test": {
+        "title": "Vordaten  (Pre Test Data)",
+        "desc_1": "Das Fenster VORDATEN wird angezeigt, wenn Sie auf dem Hauptbildschirm die Schaltfläche NEU anklicken, um einen neuen Patienten für eine neue Testsitzung anzulegen. Das Fenster VORDATEN wird ebenfalls als Standardfenster angezeigt, wenn Module im Menü ausgewählt wird. Bestehende Patienten können ausgewählt, ihre Daten aktualisiert und für eine neue Testsitzung gespeichert werden. Neue Patienten können ebenfalls im Menüpunkt Module angelegt werden.",
+        "desc_2": "Um einen bestehenden Patienten auszuwählen, beginnen Sie entweder mit der Eingabe des Namens, um diesen anzuzeigen, oder klicken Sie in das Feld Patient auswählen bzw. auf den Abwärtspfeil, um ein Dropdown-Menü mit bestehenden Patienten anzuzeigen und einen auszuwählen. Sobald ein Patient ausgewählt ist, werden die vorhandenen Patientendaten im Reiter Persönlich angezeigt. Wenn sich seit dem letzten Besuch Informationen im Reiter Persönlich, Anschreiben oder Berichte senden an geändert haben, aktualisieren Sie diese und speichern Sie die neuen Angaben. Die aktualisierten Patientendaten werden gespeichert und mit dem jeweiligen Testdatum verknüpft."
+      },
+
+      "inclinometry": {
+        "title": "Inklinometrie",
+        "desc": "Klicken Sie auf die Schaltfläche INKLINOMETRIE, um das Testmodul für Inklinometrie zu öffnen."
+      },
+
+      "muscle-test": {
+        "title": "Muskeltest",
+        "desc_1": "einen neuen Patienten anlegen und dessen Daten speichern,oder",
+        "desc_2": "einen bestehenden Patienten öffnen, dessen Daten aktualisieren und speichern.",
+        "commands": "<b>Befehle </b>",
+        "command-1": "<b>Test: </b>Verwenden Sie diese Schaltfläche, um neue Muskeltests zu erstellen oder bereits durchgeführte Muskeltests anzuzeigen. Diese Schaltfläche öffnet das Fenster Muskel-Auswahl.",
+        "command-2": "<b>Protokolle: </b>Verwenden Sie diese Schaltfläche, um neue Testprotokolle zu erstellen sowie bestehende Protokolle zu bearbeiten oder zu testen. Diese Schaltfläche öffnet das Fenster Protokoll-Auswahl.",
+        "command-3": "<b>Empfehlungen: </b>Verwenden Sie diese Schaltfläche, um eine Empfehlung für den Patienten auszuwählen. Diese Schaltfläche öffnet das Fenster Empfehlungen.",
+        "command-4": "<b>Test wiederholen: </b>Verwenden Sie diese Schaltfläche für Patienten, die zu einer Folgetestung zurückkehren.\nBeispiel: Herr Meier hatte am 15. Januar sechs Muskeln getestet. Am 22. Januar kehrt er zurück, um dieselben sechs Muskeln erneut testen zu lassen. Anstatt die Muskeln erneut manuell auszuwählen, klicken Sie auf diese Schaltfläche, und Sie gelangen direkt zum Testbildschirm mit bereits ausgewählten Muskeln.",
+        "command-5": "<b>Beenden:</b> Use este botón para cerrar la aplicación de Prueba de Músculo.",
+        "command-6": "<b>Hilfe:</b> Este botón abre la pantalla principal de ayuda."
+      }
+    },
+
+    "reports": {
+      "title": "<b>Berichte </b>",
+      "letter-title": "Reiter: Anschreiben / Narrativ",
+      "generate-graphical-report-btn": "<b>Grafischen Bericht erzeugen:</b> Mit dieser Schaltfläche können alle grafischen Berichte (außer dem Vergleichsbericht) gemeinsam erzeugt werden, für eine abgeschlossene Sitzung im Testmodul. Die Berichtsseiten werden erstellt und ein Bildschirm zur Vorschau/Anzeige der Berichte wird geöffnet. In der Druckvorschau können alle Seiten entweder direkt gedruckt oder über eine installierte PDF-Anwendung als PDF gespeichert werden.",
+      "generate-report-btn": "<b>Bericht erzeugen:</b> Diese Schaltfläche dient zur Erstellung von Anschreiben oder Narrativ-Seiten, wenn eines oder beide ausgewählt wurden. Die Seiten werden in einem Texteditor geöffnet, wo sie überprüft und bearbeitet werden können. Der Benutzer bestimmt selbst den Dateinamen und Speicherort der Berichte.",
+      "print-preview-btn": "<b>Druckvorschau:</b> Diese Schaltfläche wird verwendet, wenn ein Vergleichsbericht ausgewählt wurde. Der generierte Bericht öffnet sich in der Vorschau zur Ansicht. Von dort aus kann der Vergleichsbericht angezeigt, gedruckt oder mithilfe einer installierten PDF-Anwendung als PDF gespeichert werden.",
+      "print-btn": "<b>Drucken:</b> Diese Schaltfläche sendet den Bericht direkt an den Drucker, ohne Druckvorschau. Je nach Auswahl (Anschreiben, Narrativ, Vergleichsbericht) wird der Bericht entweder gedruckt oder über eine installierte PDF-Anwendung als PDF gespeichert.",
+      "close-btn": "<b>Schließen:</b> Diese Schaltfläche schließt das Fenster Berichte.",
+      "save-default-btn": "<b>Standard speichern / Standard wiederherstellen:</b> Die Schaltfläche Standard speichern ist eine zeitsparende Funktion, wenn Sie häufig dieselben Berichte für alle Patienten drucken. Wählen Sie die gewünschten Berichtstypen aus und klicken Sie auf Standard speichern. Später können Sie mit Standard wiederherstellen diese Auswahl automatisch laden, um dieselben Berichtstypen erneut zu drucken.",
+      "help-btn": "<b>Hilfe:</b> Die Hilfe-Schaltfläche bietet Informationen zur Bedienung des Berichte-Fensters.",
+      "module-tab-title": "<b>Modul-Reiter </b>",
+      "module-tab-desc": "Über die Modul-Testreiter können grafische Berichte ausgewählt und in der Vorschau angezeigt werden. Die ausgewählten und erstellten Berichte können entweder gedruckt oder mithilfe einer installierten PDF-Anwendung als PDF gespeichert werden."
+    },
+
+    "utility": {
+      "utility-title": "<b>Dienstprogramme </b>",
+      "setting": "<b>Einstellungen</b>",
+      "setting-desc": "Das Fenster Einstellungen enthält Parameter für die erstmalige Einrichtung der Software nach der Installation oder wenn Einstellungen geändert werden müssen.Nach Auswahl der gewünschten Parameter für die Erstkonfiguration oder Aktualisierung klicken Sie auf die Schaltfläche SPEICHERN, um Ihre Einstellungen zu speichern.",
+      "setting-desc-2": "Für die Geräteauswahl und verfügbare Ports erkennt die Software automatisch das ausgewählte Gerät und den über USB angeschlossenen COM-Port-Dongle."
+    },
+
+    "help": {
+      "title": "<b>Hilfe</b>",
+      "desc": "Das Hilfemenü bietet folgende Optionen zur Unterstützung bei der Anwendung:",
+      "topic": "<b>Hilfethemen:</b> Bietet ein Stichwortverzeichnis zu verschiedenen Hilfethemen.",
+      "about": "<b>Info (Über):</b> Zeigt die Versionsnummer dieser Anwendung an."
+    }
+  },
+
+  "faq": {
+    "trouble-shooting": {
+      "title": "<b>Fehlerbehebung</b>",
+      "desc": "Keine Kommunikation zwischen Software und Gerät:",
+      "step-1": "Gerät wird nicht erkannt (Treiberproblem): Öffnen Sie den Geräte-Manager auf dem Computer, indem Sie mit der rechten Maustaste auf die Schaltfläche Start in der Taskleiste klicken und Geräte-Manager auswählen. Wenn das Gerät „USB-Serial-Port“ nicht im Abschnitt „Anschlüsse (COM & LPT)“ angezeigt wird, prüfen Sie unter „Andere Geräte“, ob dort „FTDI USB UART“ erscheint. In diesem Fall ist der Treiber nicht installiert. Um den Treiber zu installieren, klicken Sie mit der rechten Maustaste auf FT232R USB UART, wählen „Treiber aktualisieren“, dann „Auf dem Computer nach Treibern suchen“, und navigieren Sie zum USB-Treiberordner, der Ihnen von Hoggan Scientific mit der Software zur Verfügung gestellt wurde. Zeigen Sie auf den Ordner und klicken Sie auf OK. Der Treiber sollte installiert werden. Dieser Vorgang muss zweimal durchgeführt werden – einmal für den USB-Treiber und einmal für den COM-Port-Treiber. Alternativ können Sie den Treiber auch direkt von der FTDI Chip Website herunterladen: https://ftdichip.com/",
+      "step-2": "Funkverbindung prüfen (RF-Modul): Stellen Sie sicher, dass das drahtlose RF-Modul des Geräts eingeschaltet ist. Bei Microfet2: Wenn der Dezimalpunkt vor H/L auf dem rechten LCD-Display nicht sichtbar ist, prüfen Sie, ob das RF-Modul eingeschaltet ist. Weitere Informationen finden Sie im Benutzerhandbuch. Für andere Microfet-Geräte konsultieren Sie ebenfalls das Benutzerhandbuch.",
+      "step-3": "Keine blinkende Anzeige am Gerät: Wenn der Dezimalpunkt vor dem „H“ auf dem Microfet2 nicht blinkt, überprüfen Sie die Nummer auf dem FET Stick Dongle. Diese sollte mit der Seriennummer des Microfet2-Geräts übereinstimmen. Wenn alles korrekt verbunden ist, sollte der Dezimalpunkt vor dem „H“ blinken und die LED am FET Stick dauerhaft leuchten (nicht blinken). Für andere Microfet-Geräte beachten Sie die Hinweise im Benutzerhandbuch.",
+      "step-4": "FET Stick entfernt bei geöffneter Software: Wenn der FET Stick während laufender Software vom USB-Anschluss entfernt wird, geht die Funkverbindung verloren. Nach erneutem Einstecken gehen Sie zum Modul-Bildschirm zurück und wählen erneut das gewünschte Testmodul. Im Fenster Geräteverbindung klicken Sie auf das Gerätesymbol, um die Verbindung zu überprüfen. In manchen Fällen muss die Software neu gestartet werden, um die Verbindung wiederherzustellen.",
+      "step-5": "Mehrere Microfet-Geräte: Wenn mehrere Geräte mit der Software verwendet werden, stellen Sie sicher, dass die Seriennummer des FET Sticks mit der des zu testenden Geräts übereinstimmt. FET Sticks sind nicht austauschbar.",
+      "step-6": "Gerät lässt sich nicht einschalten: Möglicherweise muss der Akku aufgeladen werden. Folgen Sie den Anweisungen im Benutzerhandbuch des Microfet-Geräts zum Aufladen. Um Unterbrechungen durch niedrigen Akkustand zu vermeiden, empfehlen wir, regelmäßig den Akkustand zu prüfen und bei etwa 15 % Restkapazität aufzuladen. Hinweise zur Akkustandsprüfung finden Sie im Benutzerhandbuch des Geräts."
+    },
+
+    "faq": {
+      "title": "FAQ – Häufig gestellte Fragen",
+      "question-1": "<b>Wie kann ich den Support von Hoggan Scientific kontaktieren?</b>",
+      "answer-1": "Kontaktieren Sie Hoggan Scientific telefonisch unter: 801-572-6500 oder 800-678-7888 Per E-Mail: sales@hogganscientific.com Bitte halten Sie bei Softwareproblemen Ihre Versionsnummer bereit.",
+      "question-2": "<b><Welche Systemanforderungen gelten für die Software?/b>",
+      "min-req": "(Dieser Punkt wurde nicht ausgeführt. Möchten Sie, dass ich typische Anforderungen ergänze?)",
+      "answer-2": "<li>Betriebssystem: Windows 10, 64-Bit Version 20H2</li><li>Prozessor: Intel Core 2 Quad Q6600 @2,40 GHz (4 CPUs) / AMD Phenom 9850 Quad Core Prozessor (4 CPUs) @2,5 GHz</li><li>Arbeitsspeicher: 8 GB</li><li>Festplattenspeicher: 200 Megabyte</li><li>1 freier USB-Anschluss</li>"
+    }
+  }
+}
